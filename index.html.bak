@@ -1,0 +1,316 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+  <head>
+        <meta name="keywords" content="DL PHARMA">
+        <!-- meta character set -->
+        <meta charset="utf-8">
+
+        <!-- Site Title -->
+        <title>디엘파마</title>
+       
+       
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta name="description" content="디엘파마">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <!--
+        Google Fonts
+        ============================================= -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+
+
+
+        
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+        </div> 
+
+        <div id="navbar" class="navbar-collapse collapse"  >
+            <ul class="nav navbar-nav" >
+                <li style="margin-right:70px;" class="dropdown" >
+					<a href="com_mission.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">회사소개</a>
+					<ul class="dropdown-menu"> 
+										<li><a href="com_ceo.html">Ceo 인사말</a></li>
+										<li><a href="com_mission.html">Mission & Vision</a></li>
+                                        <li><a href="com_business.html">Business Scope</a></li> 
+                                        <li><a href="com_3c.html">Company Value</a></li> 
+                                        <li><a href="com_org.html">Organization</a></li> 
+                     </ul> 
+				
+				</li>
+                <li style="margin-right:70px;"><a href="pip.html">파이프라인</a></li>
+                <li style="margin-right:70px;"><a href="customer.html">고객센터</a></li>
+
+            </ul>
+        </div>
+      </div> 
+    </nav>
+
+
+
+
+<!--
+    <div class='master'>
+      <div class="container">
+		<div class="container container_over gradient_con" >
+			<div class="row">
+			  <div style="width:40%;float:left;"> </div>
+			  <div style="float:right;width:60%;">
+		          <h1 class="over_title">디엘파마는 <br>창조와 도전으로<br> 글로벌 제약회사로<br> 도약하겠습니다.</h1>       
+		          <div class="over_cont">
+					  인류의 건강한 미래를 꿈꾸는 길, 디엘파마가 함께 합니다. </li>
+		          </div>
+			  </div>
+	        </div> 
+	    </div> 
+      </div>    
+    </div> 
+-->
+
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active bgslide1" >
+    <div class='master'>
+      <div class="container">
+		<div class="container container_over gradient_con" >
+			<div class="row">
+			  <div class="gra_left" > </div>
+			  <div class="gra_right" >
+		          <div class="over_title"><span class="over_title_bold">디엘파마</span>는 <br><span class="over_title_bold">창조</span>와 <span class="over_title_bold">도전</span>으로<br> 글로벌 제약회사로<br> 도약하겠습니다.</div>       
+		          <div class="over_cont">
+					  인류의 건강한 미래를 꿈꾸는 길, 디엘파마가 함께 합니다. </li>
+		          </div>
+			  </div>
+	        </div> 
+	    </div> 
+      </div>    
+    </div> 
+    </div>
+
+    <div class="item bgslide2" >
+	<div class='master'>
+      <div class="container">
+		<div class="container container_over gradient_con" >
+			<div class="row">
+			  <div class="gra_left"> </div>
+			  <div class="gra_right" >
+		          <div class="over_title">인류의 <span class="over_title_bold">행복</span>과 <br><span class="over_title_bold">건강증진</span>에<br> 이바지할 수 있도록<br>최선을 다하겠습니다</div>       
+		          <div class="over_cont">
+					  인류의 건강한 미래를 꿈꾸는 길, 디엘파마가 함께 합니다. </li>
+		          </div>
+			  </div>
+	        </div> 
+	    </div> 
+      </div>    
+    </div> 
+    </div>
+
+
+  </div>
+</div>
+
+    
+
+	<div class="section">
+	<div class="container" >  				 
+	    <div class="row">
+		  <div class="col-sm-6 col-xs-12" >
+            <div class="text-left">
+		      <div class="tab_title"> WHO ARE WE? </div>
+              <div class="tab_cont" >
+			      디엘파마는 유전체기반 생명공학 전문기업 디엔에이링크의 자회사입니다.<br><br>
+
+				  대한민국 신약개발을 성공적으로 수행하고, 세계로 진출하고자 하는 목적으로 설립된 (주)디엘파마는 모회사인 DNA Link의 기술을 활용하여 항암신약을 비롯한 다양한 분야의 Small molecule, 생물학적 제제, 유전자치료제, 세포치료제등의 연구개발에 최선의 노력을 다하고자 합니다.
+			  </div>
+			  <div class="row">
+				<div class="col-sm-3"><img src="img/who01.png"><br> <span class="who_text">지속적인<Br>항암신약 개발</span>
+				</div>
+				<div class="col-sm-3"><img src="img/who02.png"><br>  <span class="who_text">유전자치료제<br> 개발</span>
+				</div>
+				<div class="col-sm-3"><img src="img/who03.png"><br>  <span class="who_text">세포치료제 개발</span>
+				</div>
+				<div class="col-sm-3"><img src="img/who04.png"><br>  <span class="who_text">인류의 건강증진<Br>삶의 질 향상</span>
+				</div>				
+			  </div>
+
+	        </div>
+		  </div>
+
+          <div class="col-sm-6 col-xs-12">
+		    <div class="text-center">
+			  <img src='img/who05.png' class="y_image" >    
+			</div>
+		  </div> 
+		</div>	  
+	</div>
+	</div>
+	                
+
+	<div class="section">
+	<div class="container" >  				 
+	    <div class="row">
+		<div class="text-left">
+		  <div class="tab_title"> OUR BUSINESS </div>
+		</div>
+		  <div class="col-sm-8 col-xs-12" >
+            <div class="text-left">		
+			  <div ><img src="img/our01.png" style="width:100%;">			  
+			  </div>
+  			  <div style="margin-top:16px;"><img src="img/our02.png" style="width:100%;">			  
+			  </div>
+
+	        </div>
+		  </div>
+
+          <div class="col-sm-4 col-xs-12" style="margin-left:0px;">
+		    <div class="text-center">
+			  <img src='img/our03.png' style="width:100%;">    
+			</div>
+		  </div>
+		</div>	  
+	</div>
+	</div>
+
+
+	<div class="footer1">
+    <div class="container" >    
+        <!-- Example row of columns -->
+
+        <div class="row" style=" border-bottom: 1px solid #e9e9e9;" >
+		<div class="text-left" >
+           <div class="col-sm-3"  >
+            <div class="mid_cont_text"><span class="glyphicon glyphicon-envelope" style="color:#b0b0b0;padding-right:20px; font-size:24px; font-weight:700;"></span><span style="font-weight:600;" >Contact us</span> </div>
+          </div>
+          <div class="col-sm-9"  >
+            <div class="mid_cont_text"><span style="color:gray;">상세한 컨설팅을 받아 보실 수 있습니다.</span> <a href='mailto:scchoe@dl-pharma.com' class='button_mun' style="color:gray;"> 문의 하기 </a></div>
+          </div>	
+		  </div>
+        </div>      
+
+        <!-- Example row of columns -->
+        <div class="row" style=" border-bottom: 1px solid #e9e9e9;" >
+		<div class="text-left" >
+          <div class="col-sm-3" >
+            <div class="mid_cont_text"><span class="glyphicon glyphicon-earphone" style="color:#b0b0b0; padding-right:20px;font-size:24px;font-weight:700; "></span> <span style="font-weight:600;" >대표전화:02)3153-1500</span></div>
+          </div>
+          <div class="col-sm-9"  >
+            <div class="mid_cont_text"><span style="color:gray;">운영시간: 월~금 09:00-18:00 <br>
+									   고객센터 운영시간 종료 후 기술 문의는 1:1 문의를 이용해 주세요.</sapn>
+			</div>
+          </div>
+		  </div>
+        </div>  
+		
+    </div>    
+	</div>
+
+
+
+
+    
+    <footer>
+      <div class="container">
+<!--	    <div class="footer-serv" > 개인정보처리방침 | 이용약관 | 이메일무단수집거부 </div>  -->
+        <div class="row">
+          <div class="col-sm-6 footer-col" >
+			<img src="img/logo2.png"><Br><Br>
+			<h6 style="font-weight:normal;">서울시 서대문구 북아현로 150 산학협력관 1층 122호 </h6>
+			<h6  style="font-weight:normal;">대표번호 +82.2.3148.6041 FAX +82.2.3148.6040 / scchoe@dl-pharma.com </h6>
+			<h6  style="font-weight:normal;">Copyright ⓒ 2019 DL Pharma Inc All rights reserved. </h6>
+		  </div>
+
+		  <div class="col-sm-6 footer-col" >
+		  <div style="float:right">
+			<div class="dropdown">
+			  <button class="btn btn-default dropdown-toggle button_fam" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+			    ::: Family Site :::
+			    <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+			    <li><a href="http://www.dnalink.com">DNA LINK</a></li>
+			  </ul>
+			</div>
+		  </div>		
+		  </div>
+        </div>
+
+		
+      </div>				
+    </footer>    
+       
+       
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+        
+    <script>
+      function init_tabs_pr() 
+      {          
+        var windowWidth;  
+        $(".tab_content").css("display","none");
+		if (!$('ul.tabs_pr').length) { return; }
+		$('div.tab_content_wrap_pr').each(function(){$(this).find('div.tab_content:first').show();});     
+        
+        $(window).resize(function(){
+            windowWidth = $(this).width();
+            console.log('windowWidth', windowWidth);
+            
+            if (windowWidth < 540){
+                $('.tab_content').css("display", "block");
+            }else{
+                $(".tab_content").css("display","none");
+		        if (!$('ul.tabs_pr').length) { return; }
+		        $('div.tab_content_wrap_pr').each(function(){$(this).find('div.tab_content:first').show();});    
+            } 
+        })  
+		$('ul.tabs_pr a').click(function() 
+        {
+	      if (!$(this).hasClass('current')) 
+          {
+			    $(this).addClass('current').parent('li').siblings('li').find('a.current').removeClass('current');
+                $(this).parent('li').addClass('a_current').siblings('li').removeClass('a_current');                
+				$($(this).attr('href')).show("1000").siblings('div.tab_content').hide("1000");                
+          }
+				this.blur();
+				return false;
+		});
+	  }
+        
+	  $(document).ready(function() {
+		init_tabs_pr();		
+	  });
+	</script>
+
+  </body>
+</html>

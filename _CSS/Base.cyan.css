@@ -1,0 +1,153 @@
+/* common
+================================== */
+a:hover,
+a:focus{
+	color:#00a8a8;
+}
+
+/* custom icons
+================================== */
+[class^="icon-custom-"],
+[class*=" icon-custom-"]{
+	background-image: url(../images/cyan/sprite.png);
+}
+
+/* .btn
+================================== */
+.btn,
+.btn:hover,
+.btn:active,
+.btn:focus {
+	color: #00a8a8;
+}
+
+/* .dropdown
+================================== */
+div.dropdownRed .btn{
+	background-color: #00a8a8;
+	color: #fff !important;
+}
+.no-boxshadow div.dropdownRed .btn{
+	border-color: #018787;
+}
+div.dropdownRed .btn span{
+	background-color: #018787;
+}
+div.dropdownRed .dropdown-menu{
+	background-color: #00a8a8 !important;
+}
+.no-boxshadow div.dropdownRed .dropdown-menu{
+	border-color: #018787;
+}
+div.dropdownRed .dropdown-menu li{
+	border-top-color: #018787;
+	color: #fff;
+}
+div.dropdownRed .dropdown-menu li:hover{
+	background-color: #40bebe;
+}
+
+/* .widgetTeaser
+================================== */
+.widgetTeaser a.widgetTeaserLink:hover .widgetTeaserReadMore{
+	color: #00a8a8;
+}
+.textWidgetTheme {
+    background-color: #00a8a8;
+}
+
+/* .widgetSimpleLink
+================================== */
+.widgetSimpleLink.colorise{
+	background-color: #00a8a8;
+}
+.widgetSimpleLink.colorise h1.widgetTitle{
+	color: #fff;
+}
+
+/* .header
+================================== */
+.header .navbar .brandText {
+	color: #00a8a8;
+}
+.header .navbar .nav>li>a:hover,
+.header .navbar .nav>li.active>a,
+.header .navbar .nav li.dropdown.active>.dropdown-toggle{
+	color: #00a8a8;
+}
+.header .navbar .nav > li > .dropdown-menu .subMenuItems li.active a,
+.header .navbar .nav > li > .dropdown-menu .subMenuItemTitle.active a,
+.header .navbar .nav > li > .dropdown-menu .subMenuItems a:hover,
+.header .navbar .nav > li > .dropdown-menu .subMenuItemTitle a:hover{
+	color: #00a8a8;
+}
+.preContentText {
+	background-color: #b4b4b4;
+	background-color: #92A747;
+/*	background-color:rgba(0, 0, 0, 0.298039);*/
+}
+
+/* .content
+================================== */
+.expand .showDetailButton span {
+    color: #00a8a8;
+}
+
+/* .personInfo
+================================== */
+a.personLinks .icon-custom-arrow{
+	width: 12px;
+	background-image: url(../images/cyan/downArrow.png);
+}
+a.personLinks.collapsed .icon-custom-arrow{
+	background-image: url(../images/cyan/sprite.png);
+	background-position: 2px 0;
+}
+
+/* .sideColumn
+================================== */
+.sideNavigator .subMenuItemTitle a:hover,
+.sideNavigator .subMenuItemTitle a.active,
+.sideNavigator li a.active{
+	color: #00a8a8;
+}
+
+/* sitemap page
+================================== */
+.pageSubTitle a:hover, .pageTitle a:hover{
+    color: #00a8a8;
+}
+/* mobile size */
+@media (max-width: 480px) {
+	.header .navbar .topNavBarButton{
+		color: #00a8a8;
+	}
+	.header .navbar .topNavBarButton.collapsed{
+		background-color: #00a8a8;
+	}
+	.header .navbar .nav>li.active>a,
+	.header .navbar .nav>li.active>a:hover,
+	.header .navbar .nav li.dropdown.active>.dropdown-toggle,
+	.header .navbar .nav li.dropdown.open.active>.dropdown-toggle{
+		color: #00a8a8;
+	}
+	.subMenuDescription a.btn:hover,
+	.subMenuDescription a.btn.active{
+		color: #00a8a8 !important;
+	}
+}
+.btn.btnCyan {
+	background-color: #00A8A8 !important;
+    color: #FFF;
+}
+
+.content .linkContainer li {
+    background: url("../images/cyan-arrow.png") no-repeat scroll 0 5px rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

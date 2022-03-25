@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Voces);
+
+.serivces_box {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 2px #EEE solid;
+	border-radius: 10px;
+}
+
+.serivces_box {
+    margin-left: 0px;
+    margin-bottom: 50px;
+    background-color: #ebebeb;
+    background-image: url(/media/display.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+    border-radius: 0px;
+    border: 0px;
+    margin-top: 0px;
+    height: 1245px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.ser_01{
+	background-color:#fff;width:324px; padding:50px; margin-top:45px;
+}
+.ser_02{
+	background-color:#fff;width:320px; padding:51px;float:right;
+}
+.ser_03{
+	background-color:#fff;width:324px; padding:50px;float:left;	
+}
+.ser_04{
+	background-color:#fff;width:320px; padding:51px; float:right; margin-top:194px;
+}
+
+.col-md-3 {
+	width: 20%;
+	float: left;
+	margin-left: 56px;
+}
+.contt_1{
+	display:inline-block; background-color:#fff; width:200px; height:20px;padding:18px;color:#ff9d00; font-size:20px; font-weight:bold; margin-right:5px;
+}
+.contt_2{
+	display:inline-block; background-color:#fff; width:200px; height:20px;padding:18px;color:#ff9d00; font-size:20px; font-weight:bold; margin-right:5px;
+}
+
+@media (max-width: 1112px) and (min-width: 980px) {
+	.col-md-3 {
+		width: 18%;
+		float: left;
+		margin-left: 60px;
+	}
+
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.col-md-3 {
+		width: 40%;
+		float: left;
+		margin-left: 56px;
+	}
+	.serivces_box {
+	    height: 100%;
+	}
+	.ser_04, .ser_01, .ser_02, .ser_03{
+		float:none;
+	    clear:both;
+		margin:10px;
+		width:100%;
+	}
+	.ser_04{
+		 margin-top:0px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.col-md-3 {
+		width: 38%;
+		float: left;
+		margin-left: 46px;
+	}
+	.serivces_box {
+	    height: 100%;
+	}
+	
+	.ser_04, .ser_01, .ser_02, .ser_03{
+	float:none;
+		 clear:both;
+		margin:10px;
+
+	}
+
+	.ser_04{
+		margin-top:0px;
+	}	
+}
+
+@media (max-width: 480px) {
+	.col-md-3 {
+		width: 100%;
+		float: left;
+		margin-left: 0px;
+	}
+	.serivces_box {
+	    height: 100%;
+	}
+	.ser_04, .ser_01, .ser_02, .ser_03{
+		float:none;
+		clear:both;
+		margin:10px;
+	
+		
+	}
+
+	.ser_04{
+		margin-top:0px;
+	}
+}
+
+
+.navbar .brand {
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+.mainSlide {
+	max-width: 100%;
+}
+
+.product_img {
+	height: 208px;
+}
+
+.header .nav {
+	margin-left: 0px;
+}
+
+.footer {
+	color: #FFF;
+	background-color: #666;
+	font-size: 11px;
+	font-family: 'Voces', cursive;
+	padding-bottom: 20px
+}
+
+.ft_txt {
+	font-size: 11px;
+	letter-spacing:-0.5px;
+	margin-bottom: 3px;
+}
+
+.service_provider_band {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.service_provider_band img {
+	padding-left: 17px;
+	padding-right: 17px;
+}
+
+.news_content {
+	border-left: 3px #DDD solid;
+	padding-left: 15px;
+}
+
+.news_content_txt {
+	font-size: 9px;
+	font-color: #CCC;
+}
+
+@media (max-width: 480px) {
+	.header .navbar .topNavBarButton {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 387px) {
+	.header .navbar .topNavBarButton {
+		margin-top: 0px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.header .navbar .brand {
+		margin-bottom: 0px;
+	}
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.header .navbar .nav {
+		margin-top: 0px;
+	}
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.glyphicon-map-marker:before{content:"\e062";}
+.glyphicon-phone-alt:before{content:"\e183";}
+.glyphicon-print:before{content:"\e045";}
+.glyphicon-envelope:before{content:"\2709";}

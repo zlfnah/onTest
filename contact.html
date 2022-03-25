@@ -1,0 +1,188 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/vendor/fancytree/ui.fancytree.css">
+        
+        <link rel="stylesheet" href="css/dataTable.min.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="js/dataTable.min.js"></script>
+        
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+        </div> 
+        <div id="navbar" class="navbar-collapse collapse" >
+            <ul class="nav navbar-nav">
+                <li><a href="mutation.html">Mutation</a></li>
+                <li><a href="expression.html">Expression</a></li>
+                <li class="active"><a href="copynumber.html">ContactUs</a></li>
+            </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+    <div class="master_sub">   
+      <div class="intro-text_sub">            
+        <div class="intro-head_sub">World Premium</div>
+        <div class="intro-context_sub">Patient-Derived Xenograft Service</div>
+      </div>
+    </div>  
+  
+  
+
+  <div class="contact-us" >      
+       <div class="container">
+          <div class="mid_title">
+              Contact
+          </div>   
+          
+          <div class="contact-form">
+           <div class="row">
+               <div class="col-sm-7">                  
+                    <form id="ajax-contact"  method="post" action="contact-form-mail.php" role="form">
+                        <div class="messages" id="form-messages"></div>
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Firstname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            <!--    <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone*</label>
+                                        <input id="form_phone" type="tel" name="phone"  class="form-control" placeholder="Please enter your phone*" required oninvalid="setCustomValidity('Plz enter your correct phone number ')"
+    onchange="try{setCustomValidity('')}catch(e){}">
+                                        
+                                    </div>
+                                </div>-->
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-black" value="Send message">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                   <br>
+                                    <small class="text-muted"><strong>*</strong> These fields are required.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+    
+               </div>
+               <div class="col-sm-5">
+                   <div class="row col1">                       
+                     DNA Link, Inc.
+                   </div>
+                    
+                    <h6 class="ft_txt" style="font-weight:normal;"><span class="glyphicon glyphicon-map-marker glyph_white"></span>  2F, Cluster Center, 150, Bugahyeon-ro, Seodaemun-gu Seoul, Korea </h6>
+					<h6 class="ft_txt" style="font-weight:normal;"><span class="glyphicon glyphicon-phone-alt glyph_white"></span> +82.2.3153.1500 <span class="glyphicon glyphicon-print glyph_white"></span> +82.2.364.4778</h6>
+					<h6 class="ft_txt" style="font-weight:normal;"><span class="glyphicon glyphicon-envelope glyph_white"></span> office@dnalink.com</h6>
+
+                    <br>
+                    <div class="row col1">                       
+                     DNA Link USA, Inc.
+                   </div>    
+                    <h6 class="ft_txt" style="font-weight:normal;"><span class="glyphicon glyphicon-map-marker glyph_white"></span> 4901 Morena blvd. Ste 730 San Diego CA92117, USA </h6>
+					<h6 class="ft_txt" style="font-weight:normal;"><span class="glyphicon glyphicon-phone-alt glyph_white"></span> 884-362-5465 &nbsp; </h6>
+					<h6 class="ft_txt" style="font-weight:normal;"><span class="glyphicon glyphicon-envelope glyph_white"></span> service@dnalink.com</h6><Br>
+
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.683457913741!2d-117.23236488481669!3d32.827151180956854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc01064ffb17a9%3A0x778252bbbcd71fb5!2zNDkwMSBNb3JlbmEgQmx2ZCwgU2FuIERpZWdvLCBDQSA5MjExNyDrr7jqta0!5e0!3m2!1sko!2skr!4v1519547818325" width="100%" height="230" frameborder="0" style="border:0" allowfullscreen></iframe>
+               </div>
+           </div>
+           
+          </div>
+       </div>
+   </div>
+
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 footer-col" >
+			<h6>DNA Link, Inc. </h6>
+			<h6 style="font-weight:normal;"><span class="glyphicon glyphicon-map-marker glyph_white"></span>  2F, Cluster Center, 150, Bugahyeon-ro, Seodaemun-gu Seoul, Korea </h6>
+			<h6  style="font-weight:normal;"><span class="glyphicon glyphicon-phone-alt glyph_white"></span> +82.2.3153.1500 <span class="glyphicon glyphicon-print glyph_white"></span> +82.2.364.4778</h6>
+			<h6  style="font-weight:normal;"><span class="glyphicon glyphicon-envelope glyph_white"></span> office@dnalink.com</h6>
+		  </div>
+		  <div class="col-sm-6 footer-col" >
+			<h6>DNA Link USA, Inc.</h6>
+			<h6 style="font-weight:normal;"><span class="glyphicon glyphicon-map-marker glyph_white"></span> 4901 Morena blvd. Ste 730 San Diego CA92117, USA </h6>
+			<h6 style="font-weight:normal;"><span class="glyphicon glyphicon-phone-alt glyph_white"></span> 884-362-5465 &nbsp; </h6>
+			<h6 style="font-weight:normal;"><span class="glyphicon glyphicon-envelope glyph_white"></span> service@dnalink.com</h6>
+		  </div>		
+        </div>
+        <div class="footer-serv">
+            <h6>Copyright ⓒ 2017 DNA Link Inc All rights reserved.</h6>
+        </div>            
+      </div>				
+    </footer>     
+       
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/jquery-ui.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/jquery.fancytree-all.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+        $( document ).ready(function() {
+            $("#tree").fancytree();
+            $('#myTable').DataTable();
+        });
+        </script>
+    </body>
+</html>

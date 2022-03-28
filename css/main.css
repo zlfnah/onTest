@@ -88,7 +88,7 @@ background-image: -webkit-linear-gradient(92deg, #f7bb26, #e64a7d);
      border-image: linear-gradient(to right, #b2ff59, #01c9ca);
      border-image-slice: 1;
    }
-   
+ 
    .master {
      height: 592px;
      margin-top: 30px;
@@ -1719,6 +1719,18 @@ text-align: left;
   padding: 20px;
   border-bottom: 1px solid #E6E6E6; 
 }
+.MissonSmall{
+  color: #373737;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.MissonContents{
+  color: #515151;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
 .BusinessContents{
   color: #515151;
   font-family: 'Noto Sans', sans-serif;
@@ -1815,6 +1827,12 @@ font-weight: bold;
   }
 }  
 @media(max-width:599px){
+  .MissonContents{
+    font-size: 14px;
+  }
+  .MissonSmall{
+    font-size: 14px;
+  }
   .section_com02{
     margin-top: -180px;
   }
@@ -1876,6 +1894,12 @@ font-weight: bold;
   }
 }  
 @media(max-width:480px){
+  .MissonContents{
+    font-size: 11px;
+  }
+  .MissonSmall{
+    font-size: 11px;
+  }
   .BusinessTit{
     font-size: 13px;
   }
@@ -1967,6 +1991,12 @@ font-weight: bold;
   }
 }  
 @media(max-width:404px){
+  .MissonContents{
+    font-size: 10px;
+  }
+  .MissonSmall{
+    font-size: 10px;
+  }
   .CEO_Hello{
     font-size: 30px;
   }
@@ -1997,3 +2027,20 @@ font-weight: bold;
   padding-bottom: 20px;
 }
 /* PIPLINS끝 */
+  /* li 액티브 */
+  .carousel-indicators > li {    
+    background-image: url(../img/slide_dot_00.png);
+    background-size: 100%;
+    width : 30px;
+    height:30px;
+  }
+  
+  .carousel-indicators > .active{
+    background-image: url(../img/slide_dot.png);
+    background-size: 100%;
+    width : 30px;
+    height:30px;
+    
+  }
+
+   /* li액티브끝 */
